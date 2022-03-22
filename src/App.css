@@ -1,0 +1,445 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-collapse .navbar-nav .nav-item>a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Login */
+.right-nav {
+  margin-left: 690px;
+}
+
+.login-form {
+  /* display: flex;
+  justify-content: center; */
+  margin-top: 25px;
+}
+
+.login-form>form {
+  width: 30%;
+}
+
+.login-body>div .form-control {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+  box-shadow: none;
+}
+
+.login-body>label {
+  margin-left: 16px;
+}
+
+.login-btn {
+  margin-top: 30px;
+}
+
+.btn-google {
+  width: 100%;
+}
+
+.login-btn>div>button {
+  font-weight: 500;
+  background-color: lightgreen;
+  border: none;
+  color: #000;
+}
+
+.login-btn>div>button:hover {
+  background-color: darkgreen;
+}
+
+.table>tbody>tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.login-success {
+  color: green;
+}
+
+.table>tbody>tr>button {
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+.col-lg-2 {
+  width: 100%;
+}
+
+/* -----Register Account----- */
+
+.account-header {
+  text-align: center;
+  padding: 10px;
+}
+
+.account-create-text {
+  margin-top: 16px;
+  margin-left: 75px;
+}
+
+.account-create-text h4 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.8rem;
+  margin-top: 5px;
+}
+
+.account-member-text {
+  margin-top: 20px;
+  margin-left: 55px;
+}
+
+.account-member-text p {
+  font-size: 12px;
+}
+
+.register_form {
+  background-color: #fff;
+  width: 58% !important;
+}
+
+.register_form>Form>div>div>div {
+  padding-right: 25px;
+}
+
+.register_fields .form-control {
+  outline: none;
+  box-shadow: #000;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  font-family: "Roboto", sans-serif;
+
+}
+
+.product-detail h2{
+  width: 94%;
+}
+
+.ui.cards>.card>.image {
+  height: 250px;
+  padding: 20px;
+  background: #fff;
+  margin: auto;
+}
+
+.ui.cards>.card>.image>img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+
+.ui.cards>.card>.content>.header {
+  height: 43px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.ui.cards>.card>.content>.description {
+  height: 36px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+.ui.cards>.card .meta.price {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+
+.ui.cards>.card .meta.price>a {
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.ui.menu.fixed {
+  height: 60px;
+  padding-top: 15px;
+}
+
+.ui.grid.container {
+  margin-top: 10px;
+}
+
+.ui.grid>.row {
+  background: #fff;
+}
+
+.ui.grid>.row>.column.lp {
+  padding: 20px 20px 20px 20px;
+  align-self: flex-start !important;
+  border: 1px solid lightgray;
+  height: 510px;
+  overflow: hidden;
+}
+
+.ui.grid>.row>.column.rp {
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+  align-self: flex-start !important;
+  border: 1px solid lightgray;
+  border-left: none;
+  height: 510px
+}
+
+.ui.grid>.row>.column>img,
+.ui.grid>.row>img {
+  height: 100%;
+}
+
+.ui.grid>.middle {
+  justify-content: center;
+}
+
+.ui.label,
+.ui.labels .label {
+  font-size: 22px;
+}
+
+/*Cart heart*/
+.product-detail .social_icons {
+  position: absolute;
+  right: 25px;
+}
+
+.cart-heart {
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart-heart span i {
+  font-size: 18px;
+  color: #bebebe;
+}
+
+.cart-heart .fas.fa-heart:hover {
+  color: #EE3735;
+}
+
+.fas.fa-heart:hover {
+  color: #bebebe;
+}
+
+.fas.fa-heart.active {
+  color: #EE3735;
+}
+
+/*Cart heart ends*/
+
+
+
+/* 
+.ui.grid > .divider{
+  width: 5%;
+  text-align: center;
+  position: absolute;
+  left: 44%;
+  top: 100%;
+}
+.ui.placeholder .header:not(:first-child):before,
+.ui.placeholder .image:not(:first-child):before,
+.ui.placeholder .paragraph:not(:first-child):before {
+  display: none;
+}
+
+
+.column.rp h1 {
+  color: #333;
+}
+.column.rp p {
+  font-size: 18px;
+  color: #777;
+}
+.ui.placeholder.segment .column .button,
+.ui.placeholder.segment .column .field,
+.ui.placeholder.segment .column textarea,
+.ui.placeholder.segment .column > .ui.input {
+  background-color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:767px) {
+  .right-nav {
+    margin-left: 0;
+  }
+
+  .login-form>form {
+    width: 100%;
+  }
+
+  /* -----Register Account----- */
+  .account-create-text {
+    margin-left: 0;
+  }
+
+  .account-member-text {
+    margin-left: 0;
+  }
+
+  .register_form {
+    width: 100%;
+  }
+
+  .ui.grid>.row>.column.rp {
+    border: 1px solid lightgray;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .ui.grid>.row>.column.lp {
+    height: auto;
+  }
+}
+
+
+
+
+.tag-triangle {
+  border-color: transparent skyblue transparent transparent;
+  border-style: solid;
+  border-width: 17.5px;
+  width: 0;
+  height: 0;
+}
+
+.tag-rectangle {
+  background-color: skyblue;
+  width: 80px;
+  height: 35px;
+  display: inline-block;
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  border-top: 1px solid #eaeaea;
+  margin-top: 30px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* .ui.grid.middle.product{
+  overflow: hidden;
+} */
+.product img{
+  transition: all 0.5s ease;
+}
+.product img:hover{
+  transform: scale(1.1);
+}
+.visible.content> .btn-outline-primary{
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 550;
+  outline: none;
+  border-color: none;
+  box-shadow: none;
+  outline: none;
+}
+

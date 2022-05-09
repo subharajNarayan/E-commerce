@@ -1,6 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import './TabView.css';
 import Main from './components/MainComponent';
 import { Provider } from 'react-redux';
 import store from './redux/Store';

@@ -95,18 +95,23 @@ export const getSingleProduct = (id) => {
 
 //ADDITEM && DELETEITEM
 
-export const addItem = (product) => ({
+export const addItem = (products) => ({
     type: types.ADD_ITEM,
-    payload: product
+    payload: products
 })
 
-export const delItem = (product) => ({
+export const delItem = (products) => ({
     type: types.DELETE_ITEM,
-    payload: product
+    payload: products
 })  
 
-// export const productItem = () => {
-//     return (dispatch) => {
-
-//     }
-// }
+export const postItem = (items) => {
+    return (dispatch) => {
+        axios.get('http://localhost:3001/items/', items)
+            .then((response) => {
+                console.log("response", response);
+                dispatch(addItem(response.data))
+            })
+            .catch((error) => console.log(error))
+    }
+}

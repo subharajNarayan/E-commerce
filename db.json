@@ -44,7 +44,9 @@
       "img": "/assets/images/iphone3.jpg"
   }
   ],
-  "items":{
+  "items":[
+    {
     "id":0
   }
+]
 }

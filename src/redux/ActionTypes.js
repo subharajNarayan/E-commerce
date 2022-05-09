@@ -11,4 +11,5 @@ export const GET_SINGLE_PRODUCT = 'GET_SINGLE_PRODUCT';
 
 //HERE ADD ITEM AND DELETE ITEM 
 export const ADD_ITEM = 'ADD_ITEM';
-export const DELETE_ITEM ='DELETE_ITEM'
+export const GET_ITEM = 'GET_ITEM';
+export const DELETE_ITEM ='DELETE_ITEM';

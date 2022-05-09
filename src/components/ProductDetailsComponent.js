@@ -2,7 +2,7 @@ import React, { Component, useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { Breadcrumb, BreadcrumbItem, Button } from 'reactstrap';
-import { getSingleProduct,addItem, delItem } from '../redux/ActionCreators';
+import { getSingleProduct, addItem, delItem } from '../redux/ActionCreators';
 
 function RenderProductDetails() {
 
@@ -25,7 +25,7 @@ function RenderProductDetails() {
     if (cartBtn === "Add to Cart") {
       dispatch(addItem(product))
       setCartBtn("Remove from Cart")
-    }else{
+    } else {
       dispatch(delItem(product))
       setCartBtn("Add to Cart")
     }
